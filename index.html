@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="dist/css/resume.css" />
+
+		<!-- google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
+			rel="stylesheet"
+		/>
+
+		<title>Bootstrap Resume - LD</title>
+	</head>
+	<body>
+		<!-- navbar / component # 1 -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarTogglerDemo01"
+				aria-controls="navbarTogglerDemo01"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+				<a class="navbar-brand" href="#">Resume</a>
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item active">
+						<a class="nav-link" href="#"
+							>Home <span class="sr-only">(current)</span></a
+						>
+					</li>
+                    <li class="nav-item">
+						<a class="nav-link" href="#aboutMe">About me</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#skills">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#pricing">Pricing <span class="badge bg-warning">New</span> </a>
+						
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input
+						class="form-control mr-sm-2"
+						type="search"
+						placeholder="Search"
+						aria-label="Search"
+					/>
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+						Search
+					</button>
+				</form>
+			</div>
+		</nav>
+
+		<!-- hero / component # 2 -->
+		<div class="container-fluid text-center" id="homeHero">
+			<div class="row">
+				<div class="col-6"></div>
+				<div class="col-6 centered" id="shadow">
+					<h6>Welcome To My Resume!</h6>
+					<h1>Luis Diego Hernandez</h1>
+					<h5>Software and Web Developer</h5>
+					<br />
+					<p>
+						<a href="#" class="btn btn-primary my-2">Get in contact with me!</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- section / component # 3 -->
+		<div class="container-fluid bg1" id="aboutMe">
+			<div class="row">
+				<div class="col-5">
+					<img src="/images/diego1.png" height="400px" width="400px" alt="" />
+				</div>
+				<div class="col-7 pt-5 mt-5" >
+					<h2>I am Luis Hernandez</h2>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
+						molestias vero repellat rem. Fugiat, eveniet quod natus, numquam
+						officiis dignissimos voluptas laudantium libero inventore ratione
+						atque vitae delectus pariatur magni.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- progress bar / component #  4 -->
+
+		<div class="container-fluid py-5 " id="skills">
+			<div>
+				<h1 class="text-center">My Skills</h1>
+				<p class="customSeparator"></p>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6 p-4">
+					<h6>HTML</h6>
+					<div class="progress">
+						<div
+							class="progress-bar bg-success"
+							role="progressbar"
+							style="width: 80%"
+							aria-valuenow="25"
+							aria-valuemin="0"
+							aria-valuemax="100"
+						></div>
+					</div>
+					<br />
+					<h6>CSS</h6>
+					<div class="progress">
+						<div
+							class="progress-bar bg-info"
+							role="progressbar"
+							style="width: 85%"
+							aria-valuenow="50"
+							aria-valuemin="0"
+							aria-valuemax="100"
+						></div>
+					</div>
+					<br />
+					<h6>Javascript</h6>
+					<div class="progress">
+						<div
+							class="progress-bar bg-warning"
+							role="progressbar"
+							style="width: 75%"
+							aria-valuenow="75"
+							aria-valuemin="0"
+							aria-valuemax="100"
+						></div>
+					</div>
+					<br />
+					<h6>Bootstrap</h6>
+					<div class="progress">
+						<div
+							class="progress-bar bg-danger"
+							role="progressbar"
+							style="width: 95%"
+							aria-valuenow="100"
+							aria-valuemin="0"
+							aria-valuemax="100"
+						></div>
+					</div>
+				</div>
+
+				<div class="col-md-6 p-4">
+					<div class="row row-cols-2">
+						<div class="col-md-5 text-center p-4 m-2 bg-light border">
+							<h5>Lorem ipsum dolor</h5>
+						</div>
+						<div class="col-md-5 text-center p-4 m-2 bg-light border">
+							<h5>Lorem ipsum dolor</h5>
+						</div>
+						<div class="col-md-5 text-center p-4 m-2 bg-light border">
+							<h5>Lorem ipsum dolor</h5>
+						</div>
+						<div class="col-md-5 text-center p-4 m-2 bg-light border">
+							<h5>Lorem ipsum dolor</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- pricing / component # 5 -->
+		<div class="container-fluid py-5 bg2" id="pricing">
+			<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+				<h1 class="display-4">Pricing</h1>
+				<p class="lead">
+					Quickly build an effective pricing table for your potential customers
+					with this Bootstrap example. It’s built with default Bootstrap
+					components and utilities with little customization.
+				</p>
+			</div>
+
+			<div class="container">
+				<div class="card-deck mb-3 text-center">
+					<div class="card mb-4 shadow-sm">
+						<div class="card-header">
+							<h4 class="my-0 font-weight-normal">Free <span class="badge bg-warning">New!</span></h4>
+						</div>
+						<div class="card-body">
+							<h1 class="card-title pricing-card-title">
+								$0 <small class="text-muted">/ mo</small>
+							</h1>
+							<ul class="list-unstyled mt-3 mb-4">
+								<li>10 users included</li>
+								<li>2 GB of storage</li>
+								<li>Email support</li>
+								<li>Help center access</li>
+							</ul>
+							<button
+								type="button"
+								class="btn btn-lg btn-block btn-outline-primary"
+							>
+								Sign up for free 
+							</button>
+						</div>
+					</div>
+					<div class="card mb-4 shadow-sm">
+						<div class="card-header">
+							<h4 class="my-0 font-weight-normal">Pro</h4>
+						</div>
+						<div class="card-body">
+							<h1 class="card-title pricing-card-title">
+								$15 <small class="text-muted">/ mo</small>
+							</h1>
+							<ul class="list-unstyled mt-3 mb-4">
+								<li>20 users included</li>
+								<li>10 GB of storage</li>
+								<li>Priority email support</li>
+								<li>Help center access</li>
+							</ul>
+							<button type="button" class="btn btn-lg btn-block btn-primary">
+								Get started
+							</button>
+						</div>
+					</div>
+					<div class="card mb-4 shadow-sm">
+						<div class="card-header">
+							<h4 class="my-0 font-weight-normal">Enterprise</h4>
+						</div>
+						<div class="card-body">
+							<h1 class="card-title pricing-card-title">
+								$29 <small class="text-muted">/ mo</small>
+							</h1>
+							<ul class="list-unstyled mt-3 mb-4">
+								<li>30 users included</li>
+								<li>15 GB of storage</li>
+								<li>Phone and email support</li>
+								<li>Help center access</li>
+							</ul>
+							<button type="button" class="btn btn-lg btn-block btn-primary">
+								Contact us
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- footer / component # 6 -->
+		<footer class="pt-4 my-md-5 pt-md-5 border-top">
+			<div class="row">
+				<div class="col-12 col-md">
+					<img
+						class="mb-2"
+						src="/images/webdev2.png"
+						alt=""
+						width="250"
+						height="250"
+					/>
+					<small class="d-block mb-3 text-muted">&copy; 2017-2021</small>
+				</div>
+				<div class="col-6 col-md">
+					<h5>Features</h5>
+					<ul class="list-unstyled text-small">
+						<li><a class="text-muted" href="#">Cool stuff</a></li>
+						<li><a class="text-muted" href="#">Random feature</a></li>
+						<li><a class="text-muted" href="#">Team feature</a></li>
+						<li><a class="text-muted" href="#">Stuff for developers</a></li>
+						<li><a class="text-muted" href="#">Another one</a></li>
+						<li><a class="text-muted" href="#">Last time</a></li>
+					</ul>
+				</div>
+				<div class="col-6 col-md">
+					<h5>Resources</h5>
+					<ul class="list-unstyled text-small">
+						<li><a class="text-muted" href="#">Resource</a></li>
+						<li><a class="text-muted" href="#">Resource name</a></li>
+						<li><a class="text-muted" href="#">Another resource</a></li>
+						<li><a class="text-muted" href="#">Final resource</a></li>
+					</ul>
+				</div>
+				<div class="col-6 col-md">
+					<h5>About</h5>
+					<ul class="list-unstyled text-small">
+						<li><a class="text-muted" href="#">Team</a></li>
+						<li><a class="text-muted" href="#">Locations</a></li>
+						<li><a class="text-muted" href="#">Privacy</a></li>
+						<li><a class="text-muted" href="#">Terms</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

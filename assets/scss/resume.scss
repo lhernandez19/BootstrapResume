@@ -1,0 +1,52 @@
+$primaryNew: #0aefff ;
+$successNew: #80b918;
+$warningNew: #deff0a;
+
+$primary: $primaryNew ;
+$success: $successNew;
+$warning: $warningNew;
+
+$backgroundOne: #f6f2f0;
+$backgroundTwo: #f7fff7;
+
+
+@import "bootstrap";
+
+body {
+	font-family: "Architects Daughter", cursive;
+}
+
+.bg1 {
+	background-color: $backgroundOne;
+}
+
+.bg2 {
+	background-color: $backgroundTwo;
+}
+
+.customSeparator {
+	width: 70px;
+	height: 3px;
+	background-color: #e63946;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+
+#homeHero {
+	background-image: url(/images/webdev.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+	height: 600px;
+}
+
+#shadow {
+	background-color: #00000080;
+	border-radius: 15px;
+	color: white;
+	padding-top: 20px;
+}
+
+
