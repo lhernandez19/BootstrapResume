@@ -1,6 +1,6 @@
-$primaryNew: #0096c7;
-$successNew: #80b918;
-$warningNew: #deff0a;
+$primaryNew: #023e8a;
+$successNew: #0096c7;
+$warningNew: #48cae4;
 
 $primary: $primaryNew;
 $success: $successNew;
@@ -26,7 +26,7 @@ body {
 .customSeparator {
 	width: 70px;
 	height: 3px;
-	background-color: #e63946;
+	background-color: $info;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 2%;
