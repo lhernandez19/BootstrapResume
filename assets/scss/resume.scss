@@ -1,14 +1,13 @@
-$primaryNew: #0aefff ;
+$primaryNew: #219ebc;
 $successNew: #80b918;
 $warningNew: #deff0a;
 
-$primary: $primaryNew ;
+$primary: $primaryNew;
 $success: $successNew;
 $warning: $warningNew;
 
 $backgroundOne: #f6f2f0;
 $backgroundTwo: #f7fff7;
-
 
 @import "bootstrap";
 
@@ -48,5 +47,3 @@ body {
 	color: white;
 	padding-top: 20px;
 }
-
-
